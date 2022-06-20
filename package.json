@@ -34,5 +34,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "@titicaca/eslint-config-triple": "^3.1.0"
+  },
+  "lint:es": "eslint '**/*.{js,ts,tsx}'",
+  "lint:es:fix": "npm run lint:es -- --fix",
+  "lint:etc": "prettier '**/*.{json,yaml,md}' --check",
+  "lint:etc:fix": "prettier '**/*.{json,yaml,md}' --write"
 }
