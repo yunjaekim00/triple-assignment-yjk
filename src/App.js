@@ -1,9 +1,7 @@
+import MainPage from './pages/MainPage/MainPage'
+
 const App = () => {
-  return (
-    <div>
-      Deploy Test YJK
-      </div>
-  );
+  return <MainPage />
 }
 
-export default App;
+export default App
