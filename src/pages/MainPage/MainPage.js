@@ -1,5 +1,7 @@
+import * as S from './MainPage.styled'
+
 const MainPage = () => {
-  return <div>MainPage</div>
+  return <S.Container>Test</S.Container>
 }
 
 export default MainPage
