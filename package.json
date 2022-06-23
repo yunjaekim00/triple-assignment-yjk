@@ -28,7 +28,9 @@
     "lint:etc:fix": "prettier '**/*.{json,yaml,md}' --write"
   },
   "devDependencies": {
-    "@titicaca/eslint-config-triple": "^3.1.0"
+    "@titicaca/eslint-config-triple": "^3.1.0",
+    "eslint": "^8.18.0",
+    "eslint-plugin-react": "^7.30.0"
   },
   "browserslist": {
     "production": [

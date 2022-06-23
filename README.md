@@ -1,6 +1,6 @@
 ### 배포
 
-<a href='https://cozy-gaufre-0b8f08.netlify.app/' target='_blank'>Netlify 배포 링크</a>
+<a href='https://triple-assignment-921rwilmo-yunjaekim00.vercel.app/' target='_blank'>Vercel 배포 링크</a>
 
 ### Localhost에서 Project 실행 방법
 
@@ -17,10 +17,6 @@
    - 개선방향: 컴파일 단계에서 오류를 검출할 수 있는 Typescript로 구현.
 3. `ESLint`: 트리플에서 작성하는 JS/TS 작성 가이드에 맞는 규칙 적용.
    https://github.com/titicacadev/eslint-config-triple
-   ```
-   npm run lint:es
-   ```
-   를 통하여 규칙 체크 가능
 4. `Prettier`: `.js`, `.ts`, `.tsx`을 제외한 나머지 파일에 적용.
 
 ### 전체적인 Folder Structure
