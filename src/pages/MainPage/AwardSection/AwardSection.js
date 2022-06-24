@@ -10,7 +10,7 @@ const AwardSection = () => {
       {awards.map((award) => {
         return (
           <S.OneAwardWrapper key={award.id}>
-            <S.AwardImage src={award.img} />
+            {/* <S.AwardImage src={require(award.img)} /> */}
             {award.text1}
             <br /> {award.text2}
           </S.OneAwardWrapper>
