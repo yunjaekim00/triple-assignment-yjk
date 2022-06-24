@@ -7,9 +7,8 @@ Netlify 무료 호스팅 서비스에 배포하였습니다. 아래 클릭.
 
 1. 다운로드 받거나 `git clone https://github.com/yunjaekim00/triple-assignment-yjk.git`
 2. 받은 폴더 내에서 `npm install`
-3. .env 파일을 생성하고 `DISABLE_ESLINT_PLUGIN: true`를 입력합니다. (React 자체 eslint와 충돌 방지)
-4. `npm start`
-5. Browser에서 `http://localhost:3000`
+3. `npm start`
+4. Browser에서 `http://localhost:3000`
 
 ### 기술 stack과 사용 이유
 
@@ -19,7 +18,6 @@ Netlify 무료 호스팅 서비스에 배포하였습니다. 아래 클릭.
    - 개선방향: 컴파일 단계에서 오류를 검출할 수 있는 Typescript로 구현.
 3. `ESLint`: 트리플에서 작성하는 JS/TS 작성 가이드에 맞는 규칙 적용.
    https://github.com/titicacadev/eslint-config-triple
-4. `Prettier`: `.js`, `.ts`, `.tsx`을 제외한 나머지 파일에 적용.
 
 ### 전체적인 Folder Structure
 

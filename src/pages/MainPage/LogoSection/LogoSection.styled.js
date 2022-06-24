@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-import logo from "../../../assets/images/triple2x.png";
 import translateUp from "../../../utils/css/translateUp";
 
 export const LogoWrapper = styled.div`
@@ -11,15 +10,16 @@ export const LogoWrapper = styled.div`
 `;
 
 export const LogoImage = styled.img.attrs({
-  src: `${logo}`,
   alt: "logo image",
 })`
   width: 100%;
   object-fit: cover;
+  object-position: center;
 `;
 
-export const LogoText = styled.p`
+export const LogoText = styled.div`
   position: relative;
   top: -58px;
+  color: ${({ theme }) => theme.colors.fontSecondary};
   font-size: 15px;
 `;

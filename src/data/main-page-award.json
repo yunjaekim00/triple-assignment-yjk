@@ -3,12 +3,12 @@
     "id": "001",
     "text1": "2018 구글 플레이스토어",
     "text2": "올해의 앱 최우수상 수상",
-    "img": "assets/images/play-store2x.png"
+    "img": "./play-store2x.png"
   },
   {
     "id": "002",
     "text1": "2018 애플 앱스토어",
     "text2": "오늘의 여행앱 선정",
-    "img": "assets/images/badge-apple4x.png"
+    "img": "./badge-apple4x.png"
   }
 ]

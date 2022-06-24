@@ -19,13 +19,12 @@ export const OneAwardWrapper = styled.div`
   font-weight: bold;
   line-height: 22px;
   margin-right: 8px;
-  color: rgba(58, 58, 58, 0.8);
+  color: ${({ theme }) => theme.colors.fontSecondary};
 `;
 
-export const AwardImage = styled.img.attrs((props) => ({
-  src: props.img,
+export const AwardImage = styled.img.attrs({
   alt: "awards",
-}))`
+})`
   width: 54px;
   height: 54px;
   margin-right: 4px;
