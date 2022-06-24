@@ -1,13 +1,15 @@
 ### 배포
 
-<a href='https://triple-assignment-921rwilmo-yunjaekim00.vercel.app/' target='_blank'>Vercel 배포 링크</a>
+Netlify 무료 호스팅 서비스에 배포하였습니다. 아래 클릭.
+<a href='https://scintillating-elf-6ad26c.netlify.app/' target='_blank'>배포 링크</a>
 
 ### Localhost에서 Project 실행 방법
 
 1. 다운로드 받거나 `git clone https://github.com/yunjaekim00/triple-assignment-yjk.git`
 2. 받은 폴더 내에서 `npm install`
-3. `npm start`
-4. Browser에서 `http://localhost:3000`
+3. .env 파일을 생성하고 `DISABLE_ESLINT_PLUGIN: true`를 입력합니다. (React 자체 eslint와 충돌 방지)
+4. `npm start`
+5. Browser에서 `http://localhost:3000`
 
 ### 기술 stack과 사용 이유
 

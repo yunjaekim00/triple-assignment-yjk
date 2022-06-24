@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 import translateUp from "../../../utils/css/translateUp";
 
 export const StatsWrapper = styled.div`

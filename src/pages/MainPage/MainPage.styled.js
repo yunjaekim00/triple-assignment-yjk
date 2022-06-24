@@ -18,4 +18,4 @@ export const ContentsWrapper = styled.div`
   margin-left: 223px;
   /* border: 0.1rem solid;
   border-color: pink; */
-`
+`;

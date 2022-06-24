@@ -1,6 +1,6 @@
-import React from "react";
-import * as S from "./StatsSection.styled";
 import stats from "../../../data/main-page-stats.json";
+
+import * as S from "./StatsSection.styled";
 import CountUp from "./CountUp";
 
 const StatsSection = () => {

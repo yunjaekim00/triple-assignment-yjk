@@ -4,13 +4,15 @@ import StatsSection from "./StatsSection/StatsSection";
 import * as S from "./MainPage.styled";
 
 const MainPage = () => {
-  return <S.Container>
-    <LogoSection />
-    <S.ContentsWrapper>
-      <StatsSection />
-      <AwardSection />
-    </S.ContentsWrapper>
-  </S.Container>;
+  return (
+    <S.Container>
+      <LogoSection />
+      <S.ContentsWrapper>
+        <StatsSection />
+        <AwardSection />
+      </S.ContentsWrapper>
+    </S.Container>
+  );
 };
 
 export default MainPage;

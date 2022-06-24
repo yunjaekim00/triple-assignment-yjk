@@ -8,7 +8,7 @@ export const AwardWrapper = styled.div`
   animation-delay: 200ms;
   /* border: 0.1rem solid;
   border-color: orange; */
-`
+`;
 
 export const OneAwardWrapper = styled.div`
   display: flex;
@@ -20,9 +20,9 @@ export const OneAwardWrapper = styled.div`
   line-height: 22px;
   margin-right: 8px;
   color: rgba(58, 58, 58, 0.8);
-`
+`;
 
-export const AwardImage = styled.img.attrs(props => ({
+export const AwardImage = styled.img.attrs((props) => ({
   src: props.img,
   alt: "awards",
 }))`

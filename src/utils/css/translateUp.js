@@ -1,4 +1,4 @@
-import { keyframes } from 'styled-components'
+import { keyframes } from "styled-components";
 
 const translateUp = keyframes`
   0% {
@@ -9,6 +9,6 @@ const translateUp = keyframes`
     transform: translateY(0px);
     opacity: 1;
   }
-`
+`;
 
-export default translateUp
+export default translateUp;
