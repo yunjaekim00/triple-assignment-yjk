@@ -2,11 +2,11 @@
 
 Netlify 무료 호스팅 서비스에 배포하였습니다.
 
-<a href="https://scintillating-elf-6ad26c.netlify.app/" target="_blank"> 배포 링크 </a>
+## <a href="https://scintillating-elf-6ad26c.netlify.app/" target="_blank"> 배포 링크 </a>
 
 ### 배포 사이트 Preview
 
-![deploy](https://user-images.githubusercontent.com/82442974/175777550-4c350add-df02-48a9-9578-3015c219b5ed.gif)
+## ![deploy](https://user-images.githubusercontent.com/82442974/175777550-4c350add-df02-48a9-9578-3015c219b5ed.gif)
 
 ### Localhost에서 Project 실행 방법
 
@@ -14,6 +14,8 @@ Netlify 무료 호스팅 서비스에 배포하였습니다.
 2. 받은 폴더 내에서 `npm install`
 3. `npm start`
 4. Browser에서 `http://localhost:3000`
+
+---
 
 ### Test Code 실행 방법
 
