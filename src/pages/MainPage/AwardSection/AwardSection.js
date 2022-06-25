@@ -1,3 +1,5 @@
+import requireContext from "require-context.macro";
+
 import awards from "../../../data/main-page-award.json";
 
 import * as S from "./AwardSection.styled";
@@ -6,7 +8,7 @@ const AwardSection = () => {
   return (
     <S.AwardWrapper>
       {awards.map((award) => {
-        const path = require.context("../../../assets/images", true);
+        const path = requireContext("../../../assets/images", true);
         const imgLogo = path(`${award.img}`);
         return (
           <S.OneAwardWrapper key={award.id}>
