@@ -2,7 +2,7 @@
 
 Netlify 무료 호스팅 서비스에 배포하였습니다.
 
-<a href="https://scintillating-elf-6ad26c.netlify.app/">{:target="\_blank" rel="noopener"} 배포 링크 </a>
+<a href="https://scintillating-elf-6ad26c.netlify.app/" target="_blank"> 배포 링크 </a>
 
 ### 배포 사이트 Preview
 
