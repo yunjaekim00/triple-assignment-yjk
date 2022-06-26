@@ -11,7 +11,7 @@ const LogoSection = () => {
   return (
     <S.LogoWrapper>
       <S.LogoImage src={imgLogo} />
-      <S.LogoText data-testid="text">{logo.text1}</S.LogoText>
+      <S.LogoText>{logo.text1}</S.LogoText>
     </S.LogoWrapper>
   );
 };
