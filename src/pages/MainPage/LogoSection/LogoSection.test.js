@@ -8,11 +8,10 @@ const testData = {
   text1: "2021년 12월 기준",
 };
 
-
-test("test animation", () => {
+test("test text and image", () => {
   const { img, text1 } = testData;
   render(
-    <S.LogoWrapper data-testid="test1">
+    <S.LogoWrapper>
       <S.LogoImage src={img} />
       <S.LogoText theme={theme}>{text1}</S.LogoText>
     </S.LogoWrapper>
@@ -22,5 +21,4 @@ test("test animation", () => {
 
   const imgElement = screen.getByRole("img");
   expect(imgElement).toHaveAttribute("src", img);
-
 });

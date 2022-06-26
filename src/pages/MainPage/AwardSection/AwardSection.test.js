@@ -10,7 +10,7 @@ const testData = {
   text2: "올해의 앱 최우수상",
 };
 
-test("test if AwardSection has correct text and image", () => {
+test("test if AwardSection has correct text color and image", () => {
   const { id, img, text1, text2 } = testData;
   render(
     <S.AwardWrapper>

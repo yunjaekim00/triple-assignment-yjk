@@ -49,15 +49,10 @@ Netlify 무료 호스팅 서비스에 배포하였습니다.
 ├── src
 │   ├── assets
 │   │   ├── images   // 모든 이미지 파일을 저장
-│   │   ├── styles   // index.html에 reset css를 하지 않고
-                     styled component의 GlobalStyles.js로 CSS reset, font-style 지정,
-                     theme.js로 글자색, 배경색을 Context로 넘겨줍니다.
-│   ├── data   // 반드시 서버에 넘겨주지 않아도
-                     모든 text와 img경로를 한 곳에서 관리
+│   │   ├── styles   // index.html에 reset css를 하지 않고 styled component의 GlobalStyles.js로 CSS reset, font-style 지정, theme.js로 글자색, 배경색을 Context로 넘겨줍니다.
+│   ├── data   // 반드시 서버에 넘겨주지 않아도 모든 text와 img경로를 한 곳에서 관리
 │   ├── pages
-│   │   ├── MainPage   // components라는 이름의 폴더로 구성하는 것이
-                     보통이고 각 회사별 folder structure를 따르는 것이 우선이지만,
-                     가독성을 높이기 위해 pages라는 폴더에 nested 구조로 component화 하였습니다.
+│   │   ├── MainPage   // components라는 이름의 폴더로 구성하는 것이 보통이고 각 회사별 folder structure를 따르는 것이 우선이지만, 가독성을 높이기 위해 pages라는 폴더에 nested 구조로 component화 하였습니다.
 │   │   │   ├── LogoSection   // 왼쪽 이미지 영역
 │   │   │   ├── StatsSection   // 오른쪽 위쪽 영역
 │   │   │   ├── AwardSection   // 오른쪽 아래쪽 영역
