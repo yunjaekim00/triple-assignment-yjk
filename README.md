@@ -38,6 +38,7 @@ Netlify 무료 호스팅 서비스에 배포하였습니다.
 4. `Netlify`: 서버나 DB서버가 아닌 정적 파일만 존재시 무료로 호스팅해주는 곳 중 Github와 연동이 되어 코드가 변경될 때마다 자동으로 재배포 해주는 Netlify를 선택하였습니다.
 5. `Jest & RTL(React Testing Library)`: RTL은 React의 virtual DOM을 이용하는 테스트코드를 짤 수 있게 해주고 Jest와 함께 CRA(Create React App)에 포함되어있습니다. 또한 다른 component를 수정해도 기존 코드에 영향을 주는 지 여부에 대한 QA시간을 단축시킬 수 있습니다.
    - 개선방향: Jest뿐 아니라 Cypress 혹은 Selenium을 이용해 E2E(End-to-End) test도 해보는 방법.
+6. `Styled Components`: CSS-in-JS로 Javascript라는 데에서 많은 장점이 존재합니다. Jest로 CSS 테스트에 용이, SSR(Server side rendering) 지원합니다.
 
 ---
 
